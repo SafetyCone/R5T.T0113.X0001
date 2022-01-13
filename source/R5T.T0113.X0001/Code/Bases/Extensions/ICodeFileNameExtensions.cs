@@ -16,7 +16,15 @@ namespace System
             return output;
         }
 
-        public static string IServiceCollectionExtensionsCSharpFileName(this ICodeFileName _)
+        public static string IServiceActionExtensions(this ICodeFileName _)
+        {
+            var output = Instances.CodeFileName.GetCSharpFileNameForTypeName(
+                Instances.TypeName.IServiceActionExtensions());
+
+            return output;
+        }
+
+        public static string IServiceCollectionExtensions(this ICodeFileName _)
         {
             var output = Instances.CodeFileName.GetCSharpFileNameForTypeName(
                 Instances.TypeName.IServiceCollectionExtensions());

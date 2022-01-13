@@ -128,7 +128,7 @@ namespace System
                     (implementationProjectFileContext) =>
                     {
                         // Create /Classes and /Interfaces directories.
-                        implementationProjectFileContext.InProjectCodeDirectoryPathContextSynchronous(
+                        implementationProjectFileContext.InCodeDirectoryPathContextSynchronous(
                             (codeDirectoryPathContext) =>
                             {
                                 // Create /Code/Classes/Class1.cs.
@@ -222,7 +222,7 @@ namespace System
                     projectFileSpecification.Description,
                     (projectFileContext) =>
                     {
-                        projectFileContext.InProjectCodeDirectoryPathContextSynchronous(
+                        projectFileContext.InCodeDirectoryPathContextSynchronous(
                             (codeDirectoryPathContext) =>
                             {
                                 // Create the special Program.cs C# code file. (Overwriting the already created default Program.cs file.)
@@ -230,7 +230,7 @@ namespace System
                                     Instances.CodeFileName.Program(),
                                     programFileContext =>
                                     {
-                                        Instances.CodeFileGenerator.CreateProgramAsAService(
+                                        Instances.CodeFileGenerator.CreateProgramAsAService_Old(
                                             programFileContext.FilePath,
                                             projectFileSpecification.DefaultNamespaceName);
                                     });
@@ -487,7 +487,7 @@ namespace System
                     (implementationProjectFileContext) =>
                     {
                         // Create /Classes and /Interfaces directories.
-                        implementationProjectFileContext.InProjectCodeDirectoryPathContextSynchronous(
+                        implementationProjectFileContext.InCodeDirectoryPathContextSynchronous(
                             (codeDirectoryPathContext) =>
                             {
                                 // Create /Code/Classes/Class1.cs.

@@ -104,7 +104,7 @@ namespace System
                 (serviceImplementationsDirectoryContext) =>
                 {
                     serviceImplementationsDirectoryContext.InProjectSubFilePathContextSynchronous(
-                        Instances.CodeFileName.IServiceCollectionExtensionsCSharpFileName(),
+                        Instances.CodeFileName.IServiceCollectionExtensions(),
                         (serviceImplementationFileContext) =>
                         {
                             Instances.CodeFileGenerator.CreateIServiceCollectionExtensionsStub(
@@ -210,7 +210,7 @@ namespace System
             ProjectFileWithSolutionFileContext projectFileWithSolutionFileContext,
             string defaultNamespaceName)
         {
-            projectFileWithSolutionFileContext.InProjectCodeDirectoryPathContextSynchronous(
+            projectFileWithSolutionFileContext.InCodeDirectoryPathContextSynchronous(
                 (projectCodeDirectoryPathContext) =>
                 {
                     var programCodeFilePath = Instances.PathOperator.GetFilePath(

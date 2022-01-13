@@ -10,6 +10,7 @@
     <ProjectReference Include="..\..\..\R5T.D0079.X0001\source\R5T.D0079.X0001\R5T.D0079.X0001.csproj" />
     <ProjectReference Include="..\..\..\R5T.D0079\source\R5T.D0079.Base\R5T.D0079.Base.csproj" />
     <ProjectReference Include="..\..\..\R5T.Lombardy.Base\source\R5T.Lombardy.Base\R5T.Lombardy.Base.csproj" />
+    <ProjectReference Include="..\..\..\R5T.T0034.X0001\source\R5T.T0034.X0001.X003\R5T.T0034.X0001.X003.csproj" />
     <ProjectReference Include="..\..\..\R5T.T0034\source\R5T.T0034.X006\R5T.T0034.X006.csproj" />
     <ProjectReference Include="..\..\..\R5T.T0040.X0001\source\R5T.T0040.X0001\R5T.T0040.X0001.csproj" />
     <ProjectReference Include="..\..\..\R5T.T0040\source\R5T.T0040.X000\R5T.T0040.X000.csproj" />
