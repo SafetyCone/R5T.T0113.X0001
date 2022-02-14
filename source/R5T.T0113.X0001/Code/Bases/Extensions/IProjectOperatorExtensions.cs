@@ -260,7 +260,7 @@ namespace System
             ProjectFileWithSolutionFileContext projectFileWithSolutionFileContext)
         {
             var codeDirectoryPath = Instances.ProjectPathsOperator.GetCodeDirectoryPath(
-                projectFileWithSolutionFileContext.DirectoryPath);
+                projectFileWithSolutionFileContext.FilePath);
 
             Instances.FileSystemOperator.CreateDirectory(codeDirectoryPath);
         }
