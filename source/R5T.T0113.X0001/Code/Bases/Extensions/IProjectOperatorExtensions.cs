@@ -56,7 +56,7 @@ namespace System
             var serviceImplementationFileName = Instances.TypeName.GetCSharpCodeFileName(serviceImplementationTypeName);
 
             projectFileWithSolutionFileContext.InProjectSubDirectoryPathContextSynchronous(
-                Instances.ProjectPathsOperator.GetServiceImplementationsDirectoryRelativePath(),
+                Instances.ProjectPathsOperator.GetServicesImplementationsDirectoryRelativePath(),
                 (serviceImplementationsDirectoryContext) =>
                 {
                     serviceImplementationsDirectoryContext.InProjectSubFilePathContextSynchronous(
@@ -80,7 +80,7 @@ namespace System
             var serviceImplementationFileName = Instances.TypeName.GetCSharpCodeFileName(serviceImplementationTypeName);
 
             projectFileWithSolutionFileContext.InProjectSubDirectoryPathContextSynchronous(
-                Instances.ProjectPathsOperator.GetServiceImplementationsDirectoryRelativePath(),
+                Instances.ProjectPathsOperator.GetServicesImplementationsDirectoryRelativePath(),
                 (serviceImplementationsDirectoryContext) =>
                 {
                     serviceImplementationsDirectoryContext.InProjectSubFilePathContextSynchronous(
