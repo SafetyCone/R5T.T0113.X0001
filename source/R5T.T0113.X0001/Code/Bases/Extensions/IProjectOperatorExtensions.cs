@@ -246,7 +246,7 @@ namespace System
             string projectDescription)
         {
             projectFileWithSolutionFileContext.InProjectSubFilePathContextSynchronous(
-                Instances.ProjectPathsOperator.GetStandardProjectPlanFileRelativePath(),
+                Instances.ProjectPathsOperator.GetProjectPlanFileRelativePath_Standard(),
                 (projectPlanFilePathContext) =>
                 {
                     Instances.FileGenerator.CreateProjectPlanFile(

@@ -11,7 +11,7 @@ using Instances = R5T.T0113.X0001.Instances;
 
 namespace System
 {
-    public static class ISolutionOperatorExtensions
+    public static  class ISolutionOperatorExtensions
     {
         public static async Task InSolutionContext(this ISolutionOperator _,
             string solutionFilePath,

@@ -85,7 +85,7 @@ namespace System
                         {
                             Instances.ProjectPathsOperator.GetExtensionsDirectoryRelativePath(),
                             Instances.ProjectPathsOperator.GetBasesExtensionsDirectoryRelativePath(),
-                            Instances.ProjectPathsOperator.GetServiceExtensionsDirectoryRelativePath(),
+                            Instances.ProjectPathsOperator.GetServicesExtensionsDirectoryRelativePath(),
                         };
 
                         foreach (var extensionsDirectoryRelativePath in extensionsDirectoryRelativePaths)
